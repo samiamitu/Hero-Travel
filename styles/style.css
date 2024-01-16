@@ -91,23 +91,10 @@ body {
   width: 174px;
   height: 52px;
   border-radius: 8px;
-  padding-left: 16px;
+  /* padding-left: 16px; */
   font-size: 16px;
   border: none;
 }
-
-/* #banner .search .red-input{
-    background-color: #FF5400;
-    color: #fff;
-    font-size: 16px;
-    font-style: bold;
-} */
-
-/* #banner .search .red-input r{
-    color: #fff;
-    font-size: 16px;
-    font-style: bold;
-} */
 
 #banner .search button{
     background-color: #ff5400;

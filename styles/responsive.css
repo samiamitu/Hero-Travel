@@ -1,5 +1,36 @@
-@media screen and (max-width:425px){
-    .header-section{
-        flex-direction: column;
+@media screen and (max-width:600px){
+    /* body{
+        background-color: red;
+    } */
+    #banner{
+        width: 90%;
+        height: 500px;
     }
+    #banner h1 {
+        font-size: 30px;
+        font-style: bold;
+        margin-bottom: 10px;
+    }
+
+    #banner p{
+        width: 90%;
+    }
+    #banner .search{
+        flex-direction: column;
+        margin-top: 20px;
+    }
+
+    #banner .search input,select {
+        width: 255px;
+        height: 52px;
+        border-radius: 8px;
+        /* padding-left: 16px; */
+        font-size: 16px;
+        border: none;
+      }
+      #banner .search button{
+        width: 255px;
+        height: 52px;
+      }
+
 }
