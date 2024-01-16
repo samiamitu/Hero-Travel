@@ -1,102 +1,134 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Hero Travel</title>
-    <link rel="stylesheet" href="./styles/style.css" />
-    <link rel="stylesheet" href="./styles/responsive.css" />
-  </head>
-  <body>
-    <!-- navber section start -->
-    <header>
-      <nav class="header-section">
-        <div class="nav-container">
-          <div class="icon-container">
-            <div class="icon">
-              <img src="./Images/Group 40071 (2).png" alt="Hero Travel icon" />
-            </div>
-            <p>My <span class="special">Travel</span></p>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Hero Travel</title>
+  <link rel="stylesheet" href="./styles/style.css" />
+  <link rel="stylesheet" href="./styles/responsive.css" />
+</head>
+
+<body>
+  <!-- navber section start -->
+  <header>
+    <nav class="header-section">
+      <div class="nav-container">
+        <div class="icon-container">
+          <div class="icon">
+            <img src="./Images/Group 40071 (2).png" alt="Hero Travel icon" />
           </div>
-          <img id="threeLine" src="./Images/threeLine.svg" alt="" />
+          <p>My <span class="special">Travel</span></p>
         </div>
+        <img id="threeLine" src="./Images/threeLine.svg" alt="" />
+      </div>
 
-        <div class="item-container">
-          <a href=""><span>Home</span></a>
-          <a href="">packages</a>
-          <a href="">Testimonial</a>
-          <a href="">Blog</a>
-          <a href="">Contact</a>
-        </div>
-      </nav>
-    </header>
+      <div class="item-container">
+        <a href=""><span>Home</span></a>
+        <a href="">packages</a>
+        <a href="">Testimonial</a>
+        <a href="">Blog</a>
+        <a href="">Contact</a>
+      </div>
+    </nav>
+  </header>
 
-    <section id="banner">
-      <h1>Explore Your Travel</h1>
+  <section id="banner">
+    <h1>Explore Your Travel</h1>
+    <p>
+      At Travel Blog we prefer to experience a city, than simply see it. In
+      these regular features our travel writers report on some of the most
+      exciting, fun and/or insightful experiences on offer in urban locations
+      around the world.
+    </p>
+    <div class="search">
+      <input type="text" placeholder="where go" />
+      <select name="" id="">
+        <option value="">When</option>
+      </select>
+      <select name="" id="">
+        <option value="">Select Type</option>
+      </select>
+      <button>
+        <img src="./Images/Frame.svg" alt="" />
+        Find Now
+      </button>
+    </div>
+  </section>
+  <section id="popular-tour">
+    <div class="paragraph">
+      <h1>Our Popular Tours</h1>
       <p>
-        At Travel Blog we prefer to experience a city, than simply see it. In
-        these regular features our travel writers report on some of the most
-        exciting, fun and/or insightful experiences on offer in urban locations
-        around the world.
+        A world tour is not merely a vacation; it's a transformative journey
+        that broadens horizons, challenges comfort zones, and leaves an
+        indelible mark on one's soul.
       </p>
-      <div class="search">
-        <input type="text" placeholder="where go" />
-        <select name="" id="">
-          <option value="">When</option>
-        </select>
-        <select name="" id="">
-          <option value="">Select Type</option>
-        </select>
-        <button>
-          <img src="./Images/Frame.svg" alt="" />
-          Find Now
-        </button>
-      </div>
-    </section>
-    <section id="popular-tour">
-      <div class="paragraph">
-        <h1>Our Popular Tours</h1>
-        <p>
-          A world tour is not merely a vacation; it's a transformative journey
-          that broadens horizons, challenges comfort zones, and leaves an
-          indelible mark on one's soul.
-        </p>
-        <p>
-          A world tour is a kaleidoscopic adventure that takes you to an array
-          of destinations, each with its own unique charm. From the bustling
-          streets of Tokyo to the serene landscapes of Patagonia, and the
-          ancient wonders of Rome to the tropical paradises of Bali, the world
-          becomes your playground. This journey allows you to witness the rich
-          tapestry of human civilization, from historic landmarks to natural
-          wonders that leave you in awe.
-        </p>
+      <p>
+        A world tour is a kaleidoscopic adventure that takes you to an array
+        of destinations, each with its own unique charm. From the bustling
+        streets of Tokyo to the serene landscapes of Patagonia, and the
+        ancient wonders of Rome to the tropical paradises of Bali, the world
+        becomes your playground. This journey allows you to witness the rich
+        tapestry of human civilization, from historic landmarks to natural
+        wonders that leave you in awe.
+      </p>
 
-        <p>
-          As the world unfolds its wonders, a world tour becomes a celebration
-          of diversity, a journey of personal growth, and a tapestry of memories
-          that lasts a lifetime.
-        </p>
-        <button>Read More</button>
-      </div>
-      <div class="photo">
-        <img src="./Images/Rectangle 4.png" alt="Hill Photo" />
-      </div>
-    </section>
-    <section id="destination">
+      <p>
+        As the world unfolds its wonders, a world tour becomes a celebration
+        of diversity, a journey of personal growth, and a tapestry of memories
+        that lasts a lifetime.
+      </p>
+      <button>Read More</button>
+    </div>
+    <div class="photo">
+      <img src="./Images/Rectangle 4.png" alt="Hill Photo" />
+    </div>
+  </section>
+
+  <!-- destination section  -->
+  <section id="destination">
+    <div class="heading">
       <h1>Choose Your Destination</h1>
       <p>
-        Travel Blog’s collective of on-the-ground travel writers constantly
+        Travel Blogs collective of on-the-ground travel writers constantly
         update our blog with a number of regular and special features. Read on
-        and be inspired not just to love – but to live – the city
+        and be inspired not just to love but to live the city
       </p>
-    </section>
+    </div>
+    <div class="grid-layout">
+      <div class="card maldives">
+        <p>Maldives</p>
+      </div>
+      <div class="card indonesia">
+        <p>Indonesia</p>
+      </div>
+      <div class="card srilanka">
+        <p>Srilanka</p>
+      </div>
+      <div class="card north-america">
+        <p>North-America</p>
+      </div>
+      <div class="card kashmir">
+        <p>Kashmir</p>
+      </div>
+      <div class="card bangladesh">
+        <p>bangladesh</p>
+      </div>
+      <div class="card bandarban">
+        <p>Bandarban</p>
+      </div>
+    </div>
+  </section>
 
-    <!-- navber section end -->
 
-    <!-- <footer>
+
+  <!-- navber section end -->
+
+  <!-- <footer>
         <div class="icon"><img src="./Group 40071 (2).png" alt="Hero Travel icon"></div>
         <div class="heading1"><h1>Hero</h1></div>
         <div class="heading2"><h1>Travel</h1></div>
     </footer> -->
-  </body>
+</body>
+
 </html>
