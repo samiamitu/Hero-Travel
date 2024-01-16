@@ -78,5 +78,16 @@
         background-position: center;
         background-repeat: no-repeat;
       }
+      #why-us .cards-container {
+        grid-template-columns: 1fr;
+        justify-content: center;
+        gap: 24px;
+      }
+      #why-us .cards {
+        width: 100%;
+        padding: 8px;
+        overflow-y: hidden;
+      }
+      
 
 }
