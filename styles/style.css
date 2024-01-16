@@ -1,0 +1,130 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 100%;
+  max-width: 1440px;
+  margin: auto;
+}
+
+.nav-container {
+  /* border: 2px red solid; */
+  min-height: 20px;
+  display: flex;
+  align-items: center;
+  width: 50%;
+}
+.nav-container img {
+  width: 48px;
+}
+.nav-container p {
+  font-size: 36px;
+}
+.special {
+  color: #ff5400;
+  font-weight: 800;
+}
+.header-section {
+  max-width: 81%;
+  /* background-color: #FF5400; */
+  margin: auto;
+  display: flex;
+  margin-top: 50px;
+}
+.item-container {
+  /* border: yellow 3px solid; */
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.item-container a {
+  text-decoration: none;
+  justify-content: center;
+}
+
+#banner {
+  background-image: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%),url("../Images/Group\ 13\ \(1\)\ \(1\).png");
+  height: 500px;
+  width: 81%;
+  margin: auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  border-radius: 16px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+
+#banner h1 {
+  width: 51%;
+  font-size: 64px;
+  color: #fff;
+  margin-bottom: 24px;
+  font-style: bold;
+}
+
+#banner p {
+  width: 55%;
+  font-size: 16px;
+  line-height: 26px;
+  color: #fff;
+}
+
+
+
+#banner .search {
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.3);
+  padding: 16px;
+  display: flex;
+  gap: 24px;
+  width: fit-content;
+  margin-top: 48px;
+}
+
+#banner .search input,select {
+  width: 174px;
+  height: 52px;
+  border-radius: 8px;
+  padding-left: 16px;
+  font-size: 16px;
+  border: none;
+}
+
+/* #banner .search .red-input{
+    background-color: #FF5400;
+    color: #fff;
+    font-size: 16px;
+    font-style: bold;
+} */
+
+/* #banner .search .red-input r{
+    color: #fff;
+    font-size: 16px;
+    font-style: bold;
+} */
+
+#banner .search button{
+    background-color: #ff5400;
+    width: 174px;
+    height: 52px;
+    border-radius: 8px;
+    color: #fff;
+    font-size: 16px;
+    font-style: bold;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+
+#banner .search button img{
+    width: 24px;
+    height: 24px;
+}
