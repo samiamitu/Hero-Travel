@@ -25,7 +25,6 @@ body {
   display: flex;
   gap: 8px;
   font-size: 36px;
-
 }
 
 .icon-container span {
@@ -76,9 +75,11 @@ body {
 }
 
 #banner {
-  background-image: linear-gradient(180deg,
+  background-image: linear-gradient(
+      180deg,
       rgba(19, 19, 24, 0.8) 0%,
-      rgba(19, 19, 24, 0) 100%),
+      rgba(19, 19, 24, 0) 100%
+    ),
     url("../Images/Group\ 13\ \(1\)\ \(1\).png");
   background-position: center;
   background-repeat: no-repeat;
@@ -219,7 +220,7 @@ select {
 }
 
 #destination .heading p {
-  color: rgba(19, 19, 24, 0.70);
+  color: rgba(19, 19, 24, 0.7);
   text-align: center;
   font-family: Mulish;
   font-size: 16px;
@@ -265,57 +266,91 @@ select {
 } */
 
 #destination .grid-layout .maldives {
-  background-image: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url("../Images/Rectangle\ 5.png");
+  background-image: linear-gradient(
+      0deg,
+      rgba(19, 19, 24, 0.2) 0%,
+      rgba(19, 19, 24, 0.2) 100%
+    ),
+    url("../Images/Rectangle\ 5.png");
   width: 550px;
   height: 300px;
   border-radius: 16px;
 }
 
 #destination .grid-layout .indonesia {
-  background-image: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url("../Images/Rectangle\ 8.png");
+  background-image: linear-gradient(
+      0deg,
+      rgba(19, 19, 24, 0.2) 0%,
+      rgba(19, 19, 24, 0.2) 100%
+    ),
+    url("../Images/Rectangle\ 8.png");
   width: 550px;
   height: 300px;
   border-radius: 16px;
 }
 
 #destination .grid-layout .srilanka {
-  background-image: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url("../Images/Rectangle\ 6.png");
+  background-image: linear-gradient(
+      0deg,
+      rgba(19, 19, 24, 0.2) 0%,
+      rgba(19, 19, 24, 0.2) 100%
+    ),
+    url("../Images/Rectangle\ 6.png");
   width: 350px;
   height: 280px;
   border-radius: 16px;
 }
 
 #destination .grid-layout .north-america {
-  background-image: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url("../Images/Rectangle\ 7.png");
+  background-image: linear-gradient(
+      0deg,
+      rgba(19, 19, 24, 0.2) 0%,
+      rgba(19, 19, 24, 0.2) 100%
+    ),
+    url("../Images/Rectangle\ 7.png");
   width: 460px;
   height: 280px;
   border-radius: 16px;
 }
 
 #destination .grid-layout .kashmir {
-  background-image: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url("../Images/Rectangle\ 9.png");
+  background-image: linear-gradient(
+      0deg,
+      rgba(19, 19, 24, 0.2) 0%,
+      rgba(19, 19, 24, 0.2) 100%
+    ),
+    url("../Images/Rectangle\ 9.png");
   width: 260px;
   height: 270px;
   border-radius: 16px;
 }
 
-
 #destination .grid-layout .bangladesh {
-  background-image: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url("../Images/Rectangle\ 11.png");
+  background-image: linear-gradient(
+      0deg,
+      rgba(19, 19, 24, 0.2) 0%,
+      rgba(19, 19, 24, 0.2) 100%
+    ),
+    url("../Images/Rectangle\ 11.png");
   width: 460px;
   height: 290px;
   border-radius: 16px;
 }
 
 #destination .grid-layout .bandarban {
-  background-image: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url("../Images/Rectangle\ 10.png");
+  background-image: linear-gradient(
+      0deg,
+      rgba(19, 19, 24, 0.2) 0%,
+      rgba(19, 19, 24, 0.2) 100%
+    ),
+    url("../Images/Rectangle\ 10.png");
   width: 630px;
   height: 290px;
   border-radius: 16px;
 }
 
 #destination .grid-layout p {
-  color: #FFF;
+  color: #fff;
   font-size: 28px;
 }
 
@@ -351,11 +386,11 @@ footer .footer-icon-container img {
 }
 
 footer .footer-icon-container h5 span {
-  color: #FF5400;
+  color: #ff5400;
 }
 
 footer p {
-  color: #5A5A5D;
+  color: #5a5a5d;
   text-align: center;
   font-family: Mulish;
   font-size: 16px;
@@ -377,7 +412,7 @@ footer .social-icon {
 #horizontal-line {
   width: 60%;
   height: 1px;
-  background-color: rgba(19, 19, 24, 0.10);
+  background-color: rgba(19, 19, 24, 0.1);
   margin: 50px 0;
 }
 
@@ -385,7 +420,6 @@ footer h3 {
   font-size: 16px;
   font-style: normal;
 }
-
 
 /* why us  */
 #why-us {
@@ -409,7 +443,7 @@ footer h3 {
 }
 
 #why-us .heading p {
-  color: rgba(19, 19, 24, 0.70);
+  color: rgba(19, 19, 24, 0.7);
   text-align: center;
   font-family: Mulish;
   font-size: 16px;
@@ -423,7 +457,7 @@ footer h3 {
   width: 550px;
   height: 284px;
   border-radius: 16px;
-  border: 1px solid rgba(251, 181, 99, 0.20);
+  border: 1px solid rgba(251, 181, 99, 0.2);
   /* background: rgba(251, 181, 99, 0.05); */
   padding: 32px;
   margin-top: 48px;
@@ -441,7 +475,7 @@ footer h3 {
 }
 
 #why-us .cards p {
-  color: #5A5A5D;
+  color: #5a5a5d;
   font-family: Mulish;
   font-size: 16px;
   font-style: normal;
@@ -469,10 +503,9 @@ footer h3 {
 #card3 {
   margin: auto;
   background-color: rgba(233, 68, 68, 0.05);
-  ;
 }
 
-#newsletter{
+#newsletter {
   display: flex;
   /* justify-content: center;
   align-items: center; */
@@ -485,7 +518,7 @@ footer h3 {
   width: fit-content;
   height: auto;
   border-radius: 16px;
-  border: 1px solid #FF5400;
+  border: 1px solid #ff5400;
   padding: 40px;
 }
 
@@ -503,14 +536,14 @@ footer h3 {
   width: 85%;
   height: 1px;
   margin: auto;
-  background-color: rgba(19, 19, 24, 0.10);
+  background-color: rgba(19, 19, 24, 0.1);
   margin: 24px 0;
 }
 
 #newsletter .text-container input {
   width: 85%;
   margin: auto;
-  margin-bottom: 16px; 
+  margin-bottom: 16px;
   height: 52px;
   border-radius: 8px;
   background: rgba(19, 19, 24, 0.05);
@@ -518,23 +551,60 @@ footer h3 {
   padding: 2px;
 }
 
-#newsletter .text-container button{
+#newsletter .text-container button {
   border-radius: 8px;
-background: #FF5400;
-width: 85%;
-margin: auto;
-height: 52px;
-font-size: 20px;
-color: #fff;
-border: none;
+  background: #ff5400;
+  width: 85%;
+  margin: auto;
+  height: 52px;
+  font-size: 20px;
+  color: #fff;
+  border: none;
 }
 
-#newsletter .image-container{
-  background-image: url('/Images/Rectangle\ 8\ \(1\).png');
+#newsletter .image-container {
+  background-image: url("/Images/Rectangle\ 8\ \(1\).png");
   width: 59%;
   height: 422px;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
   border-radius: 16px;
+  display: flex;
+  justify-content: end;
+  align-items: end;
+}
+
+#newsletter .image-container .seventy-off {
+  border-radius: 16px;
+  background-color: #ff5400;
+  width: 324px;
+  height: 120px;
+  transform: rotate(-19.628deg);
+  margin-bottom: 50px;
+  margin-right: 10px;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#newsletter .image-container .seventy-off h2 {
+  color: #fff;
+  text-align: center;
+  font-family: Mulish;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-bottom: 4px;
+}
+#newsletter .image-container .seventy-off h1 {
+  color: #fff;
+  font-family: Mulish;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
 }
