@@ -88,6 +88,20 @@
         padding: 8px;
         overflow-y: hidden;
       }
+      #newsletter{
+        flex-direction: column;
+      }
       
+#newsletter .image-container{
+    width: 90%;
+    margin: auto;
+}
+#newsletter .text-container {
+    width: 90%;
+    margin: auto;
+    
+    padding: 10px;
+    overflow-y: hidden;
+  }
 
 }
