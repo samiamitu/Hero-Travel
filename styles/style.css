@@ -608,3 +608,31 @@ footer h3 {
   font-weight: 800;
   line-height: normal;
 }
+#aboutme {
+  display: flex;
+  margin-top: 100px;
+
+}
+#aboutme .left {
+  flex:1;
+}
+#aboutme .right {
+  flex: 1;
+}
+#aboutme .right img {
+  width: 80%;
+ border-radius: 16px;
+  background-position: center;
+
+}
+#aboutme .left h1 {
+  font-size: 40px;
+  font-style: bold;
+  margin-bottom: 50px;
+}
+#aboutme .left p {
+ font-size: 20px;
+ width: 80%;
+
+}
+
